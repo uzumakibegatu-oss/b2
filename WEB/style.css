@@ -1,0 +1,252 @@
+.llogin {
+    position: relative;
+    margin-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 15px solid rgb(50, 50, 50);
+    border-radius: 12px;
+    width: 20%;
+    background-color: rgb(70, 70, 70);
+    margin-top: 150px;
+    margin: 100px auto;
+    color: white;
+}
+
+.buton,
+.buton2 {
+    margin-bottom: 15px;
+}
+
+.logrin {
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+
+    margin: 0;
+}
+
+.fpass {
+    color: blue;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.passwordnotes {
+    color: red;
+}
+
+.ssignup {
+    position: relative;
+    margin-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 15px solid rgb(50, 50, 50);
+    border-radius: 12px;
+    width: 20%;
+    background-color: rgb(70, 70, 70);
+    margin-top: 150px;
+    margin: 100px auto;
+    color: white;
+}
+
+.yes {
+    text-align: center;
+}
+
+.forgotpassword {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.loin {
+    color: blue;
+}
+
+.sig {
+    color: blue;
+}
+
+.user {
+    border: 5px solid rgb(100, 100, 100);
+    background-color: rgb(100, 100, 100);
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+.username {
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.uname,
+.usname {
+    margin-bottom: 5px;
+}
+
+.pass {
+    border: 5px solid rgb(100, 100, 100);
+    background-color: rgb(100, 100, 100);
+    border-radius: 14px;
+}
+
+.uspass {
+    margin-bottom: 5px;
+}
+
+.password {
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.upass {
+    margin-bottom: 5px;
+}
+
+.user2 {
+    border: 5px solid rgb(225, 255, 0);
+    background-color: rgb(225, 255, 0);
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+.passwordnotes {
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+
+.emaill {
+    border: 5px solid rgb(100, 100, 100);
+    background-color: rgb(100, 100, 100);
+    border-radius: 14px;
+    margin-top: 30px;
+}
+
+.email {
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.noe {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(100, 100, 100);
+    background-color: rgb(100, 100, 100);
+    border-radius: 14px;
+}
+
+.notes {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.topbar {
+    border: 15px solid blue;
+    background-color: blue;
+    margin-top: -10px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rightbtn {
+    display: flex;
+    gap: 20px;
+}
+
+.loogin,
+.siggnup,
+.home {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.dd,
+.d {
+    font-size: 25px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
+
+.tt {
+    margin-left: 240px;
+    font-size: 75px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-size: 75px;
+    margin-bottom: 50px;
+    text-align: left;
+    color: white;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 40px;
+    justify-content: flex-start;
+}
+
+
+
+.images img {
+    width: auto;
+    height: 240px;
+    object-fit: cover;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(0, 0, 0, 0.5);
+    border-radius: 9px;
+    color: rgb(229, 255, 0);
+    background-color: darkgray;
+}
+
+.s {
+    margin-top: -230px;
+    margin-left: 200px;
+}
+
+.uname, .usname, .upass, .uspass {
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 250px;
+    transition: 0.3s ease;
+    outline: none;
+}

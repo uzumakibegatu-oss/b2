@@ -3,22 +3,24 @@
 
 int main() {
     int n;
-    int a=1;
-    long long b=1;
+    int i;
+    int j;
+    int a;
+    int b = 0;
     printf("type n: ");
     scanf("%d", &n);
-    if (n<0) {
-        printf("error");
-    } else if (n==0) {
-        printf("1");
-    } else if (n>0) {
-        while (a<=n) {
-            b=b*a;
-            a++;
+    for (j=(n-1); j>=0; j--) {
+        b++;
+        for (a=1; a<=j; a++) {
+            printf(" ");   
         }
-    }
-    printf("%lld", b);
+        for (i=1; i<=(b*2-1); i++) {
+            printf("0");
+        }
+        printf("\n");
+    }   
 }
+
 
 
 
